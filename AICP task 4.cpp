@@ -14,7 +14,7 @@ public:
 	
 void calcArea(int lastDigit){        //Area of hexagon
 
-	area=1.5*1.732*lastDigit;       //Area of hexagon= 1.5*1.732*s 
+	area=1.5*1.732*pow(lastDigit,2);       //Area of hexagon= 1.5*1.732*s 
 }
 void calcPeri(int lastDigit){
 	
@@ -45,7 +45,7 @@ public:
 	
 void calcAreaSquare(int length){
 	
-   area=(length)*2;	     //Area of square= (length)2
+   area=pow(length,2);	     //Area of square= (length)2
 }
 void calcPeriSquare(int length){
 	
