@@ -1,5 +1,6 @@
 #include <iostream>
 #include <iomanip>
+#include <math.h>
 
 using namespace std;
 
@@ -14,7 +15,7 @@ public:
 	
 void calcArea(int lastDigit){        //Area of hexagon
 
-	area=1.5*1.732*pow(lastDigit,2);       //Area of hexagon= 1.5*1.732*s 
+	area=1.5 * 1.732 * pow(lastDigit,2);       //Area of hexagon= 1.5*1.732*s 
 }
 void calcPeri(int lastDigit){
 	
